@@ -10,7 +10,7 @@ logo: "raspberrypi.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
 
 header: true
-footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+footer: '<p>Copy my Homer configat my <a href="https://github.com/NeverEndingChapters/pi-server/edit/main/Homer/config.yml">GitHub</a>' # set false if you want to hide it.
 
 # Optional theme customization
 theme: default
