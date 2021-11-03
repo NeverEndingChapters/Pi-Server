@@ -1,4 +1,4 @@
-# Pi-Server
+# <img src="https://raw.githubusercontent.com/NeverEndingChapters/pi-server/main/Homer/images/raspberrypi.png" alt="drawing" width="80"/> Pi-Server
 **_Just as a warning this is my first time ever using GitHub and my first real project_**
 Cause I don't what I'm doing to well there will be links thoughout to the guides I followed / used.
 
