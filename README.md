@@ -4,12 +4,14 @@ This is me just documenting how I setup my server cause I don't what I'm doing t
 ### **_Just as a warning this is my first time ever using GitHub and my first real project_**
 
 ## 1.0 Setup of Pi-server
-I installed Raspberry Pi OS Lite (32-bit) on my SD card as I plan on doing this fully from SSH and terminal. 
-When using the raspbeery pi imager you can hit ctrl+shift+x to open an extra menu.
+As I plan on doing this fully from SSH and terminal I doing a headless setup. 
+1. I installed Raspberry Pi OS Lite (32-bit) on my SD card as it has no desktop environment and it won't be needed for me
+2. When using the raspbeery pi imager you can hit ctrl+shift+x to open an extra menu.
 With the menu I set my time zone, configured wifi, and setup SSH. 
-Then, I wrote the image to my sd card and booted it on my pi. which is my raspberry pi 4 model B / 8GB
-Once it booted i need to get my pi's ip address on my local network 
-After I SSH into my pi I ran both `sudo apt update` and `sudo apt upgrade` to make sure the OS is fully updated.
+3. I wrote the image to my sd card and booted it on my pi.
+4. Once it booted i need to get my pi's ip address on my local network and I find it on my network with angry ip scanner.
+5. After I SSH into my pi with PowerShell `ssh pi@localhost` and sign in with my password.
+6. After got in I ran both `sudo apt update` and `sudo apt upgrade` to make sure the OS is fully updated.
 
 ## 2.0 Installing Portainer / Docker
  - [Raspberry pi how to install docker & portainer](https://www.wundertech.net/portainer-raspberry-pi-install-how-to-install-docker-and-portainer/)
