@@ -4,8 +4,8 @@ This is me just documenting how I setup my server cause I don't what I'm doing t
 ### **_Just as a warning this is my first time ever using GitHub and my first real project_**
 
 ## 1.0 Setup of Pi-server
-As I plan on doing this fully from SSH and terminal I doing a headless setup. 
-1. I installed Raspberry Pi OS Lite (32-bit) on my SD card as it has no desktop environment and it won't be needed for me
+As I plan on doing this fully from SSH and terminal I doing a headless setup doing the following. 
+1. I picked to install Raspberry Pi OS Lite (32-bit) on my SD card. 
 2. When using the raspbeery pi imager you can hit ctrl+shift+x to open an extra menu.
 With the menu I set my time zone, configured wifi, and setup SSH. 
 3. I wrote the image to my sd card and booted it on my pi.
