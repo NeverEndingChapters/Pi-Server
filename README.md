@@ -1,7 +1,7 @@
 # <img src="https://raw.githubusercontent.com/NeverEndingChapters/pi-server/main/Homer/images/raspberrypi.png" alt="drawing" width="80"/> Pi-Server
 
 This is me just documenting how I setup my server cause I don't what I'm doing too well and thought it could help others. Also, there will be links thoughout to the guides I followed / used.
-### **_Just as a warning this is my first time ever using GitHub and my first real project_**
+ - **_Just as a warning this is my first time ever using GitHub and my first real project_**
 
 ## 1.0 Setup of Pi-server
 As I plan on doing this fully from SSH and terminal I doing a headless setup doing the following. 
