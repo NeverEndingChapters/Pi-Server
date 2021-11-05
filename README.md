@@ -28,31 +28,5 @@ We updated the raspberry pi bit ago at the start of the doc so skiping that step
 ```
 sudo docker run --restart always -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:linux-arm
 ```
-
-## 3.0 Web Terminal
-I set up [ShellInABox](https://github.com/shellinabox/shellinabox) as I quickly got tried of using PowerShell to ssh in. you can use `sudo apt install shellinabox` to install ShellInABox. Also I like to increase security as this is a terminal into your server by 
-
-### 1. Move what port shellingabox listens to. 
-By default it listens on port 4200 you can change it by using `sudo nano /etc/default/shellinabox` 
-The line you should change looks like this by default `\/`
-```
-# TCP port that shellinboxd's webserver listens on 
-SHELLINABOX_PORT=4200
-```
-for example you can change it to `\/`
-```
-# TCP port that shellinboxd's webserver listens on 
-SHELLINABOX_PORT=5120
-```
-when your done changing the port hit Ctrl + x it will as you to save so hit y and then enter
-
-### 2. Enabling SSL 
-
-
-
-
-> Something to note it that "__ShellInABox__" is fork of the original "__Shell In A Box__" because the original project was not maintained by the authorized author.
-
-## 4.0 Nginx Porxy Manager & BitWarden
-[Nginx Proxy Manager Raspberry Pi Install](https://www.wundertech.net/nginx-proxy-manager-raspberry-pi-install-instructions/)
-[Self Host Bitwarden on a Raspberry Pi](https://www.wundertech.net/how-to-self-host-bitwarden-on-a-raspberry-pi/)
+5. Go to `http://localhost :9000/` to get to the portainer web gui and create as log in password
+6. select Local and Connect and with that you should be connected to your portainer
