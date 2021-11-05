@@ -30,3 +30,14 @@ sudo docker run --restart always -d -p 9000:9000 -v /var/run/docker.sock:/var/ru
 ```
 5. Go to `http://localhost :9000/` to get to the portainer web gui and create as log in password
 6. select Local and Connect and with that you should be connected to your portainer
+
+## 3.0 ShellInABox
+[ShellInABox](/WebTerminal.md) implements a web server that creats web based terminal emulator. This emulator is accessible to any JavaScript and CSS enabled web browser and does not require any additional browser plugins.
+
+## 4.0 Nginx Proxy Manager 
+[Nqinx](Nqinx.md) is a reverse proxy is a great way to increase security and performance when exposing services on your network.
+A reverse proxy is a server that sits in front of your web servers and forwards client requests to the web servers. 
+In simpler terms you only have to expose one server (using ports 80/443) and will be able to expose as many web services as you want.
+
+## 5.0 BitWarden
+[Bitwarden](/BitWarden.md) is an integrated open source password management solution for individuals, teams, and business organizations
