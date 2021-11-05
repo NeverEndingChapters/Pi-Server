@@ -35,7 +35,7 @@ sudo docker run --restart always -d -p 9000:9000 -v /var/run/docker.sock:/var/ru
 [ShellInABox](/WebTerminal.md) implements a web server that creats web based terminal emulator. This emulator is accessible to any JavaScript and CSS enabled web browser and does not require any additional browser plugins.
 
 ## 4.0 Nginx Proxy Manager 
-[Nqinx](Nqinx.md) is a reverse proxy is a great way to increase security and performance when exposing services on your network.
+[Nginx](Nginx.md) is a reverse proxy is a great way to increase security and performance when exposing services on your network.
 A reverse proxy is a server that sits in front of your web servers and forwards client requests to the web servers. 
 In simpler terms you only have to expose one server (using ports 80/443) and will be able to expose as many web services as you want.
 
