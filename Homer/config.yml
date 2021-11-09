@@ -1,3 +1,27 @@
+"""
+MIT License
+
+Copyright (c) 2021 Chapters
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
 ---
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
@@ -70,7 +94,7 @@ links:
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Applications"
+  - name: "Server Managment"
     icon: "fas fa-cloud"
     items:
       - name: "Shell In A Box"
@@ -79,33 +103,25 @@ services:
         tag: "app"
         url: "https://0.0.0.0:4200"
         target: "_blank" # optional html a tag target attribute
-      - name: "Pi-Hole"
-        logo: "pi-hole.png"
-        subtitle: "Ad Blocking"
-        tag: "app"
-        url: "http://0.0.0.0:80/admin"
-        target: "_blank"
-      - name: "BitWarden"
-        logo: "bitwarden.png"
-        subtitle: "Password Manager"
-        tag: "app"
-        url: "https://0.0.0.0:8443/"
-        target: "_blank"
-  - name: "Sever"
-    icon: "fas fa-cloud"
-    items:
       - name: "Portainer"
         logo: "docker.png"
         subtitle: "Docker"
         tag: "app"
         url: "https://0.0.0.0:9000"
+        target: "_blank"  
+  - name: "Apps"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Pi-Hole"
+        logo: "pi-hole.png"
+        subtitle: "Ad Blocking"
+        tag: "app"
+        url: "http://0.0.0.0:80/admin"
         target: "_blank" # optional html a tag target attribute
-      
-# Github was shiting well I typed
-# this fixed it so i left it
-#
-#
-#
-#
-#
-#
+      - name: "BitWarden"
+        logo: "bitwarden.png"
+        subtitle: "Password Manager"
+        tag: "app"
+        url: "https://0.0.0.0:8443/"
+        target: "_blank"      
+        
