@@ -40,4 +40,4 @@ A reverse proxy is a server that sits in front of your web servers and forwards 
 In simpler terms you only have to expose one server (using ports 80/443) and will be able to expose as many web services as you want.
 
 ## 5.0 BitWarden
-[Bitwarden](/BitWarden.md) is an integrated open source password management solution for individuals, teams, and business organizations
+[Bitwarden](/Install-Guides/BitWarden.md) is an integrated open source password management solution for individuals, teams, and business organizations
